@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.masDeUnMeses {
+  color: rgb(30, 255, 0);
+}
+
+.unMes {
+  color: rgb(247, 255, 12);
+}
+
+.dosSemana {
+  color: rgb(255, 0, 0);
+}
+
+.imagen1 {
+  background-image: url(img/1.webp);
+  background-repeat: no-repeat;
+  background-size: 300px 300px; /* Ancho y alto en píxeles */
+
+}
+
+.imagen2 {
+  background-image: url(img/2.webp);
+  background-repeat: no-repeat;
+  background-size: 300px 300px; /* Ancho y alto en píxeles */
+
+}
+
+.imagen3 {
+  background-image: url(img/3.webp);
+  background-repeat: no-repeat;
+  background-size: 300px 300px; /* Ancho y alto en píxeles */
+
+}
